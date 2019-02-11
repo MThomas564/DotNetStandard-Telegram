@@ -4,7 +4,12 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>DotNetStandard_Telegram</RootNamespace>
     <Authors>MThomas564</Authors>
-    <Version>1.0.3</Version>
+    <Version>1.0.5</Version>
+    <ProjectUrl>https://github.com/MThomas564/DotNetStandard-Telegram</ProjectUrl>
   </PropertyGroup>
-
+<ItemGroup>
+  <Content Include="README.md">
+    <Pack>true</Pack>
+  </Content>
+</ItemGroup>
 </Project>
