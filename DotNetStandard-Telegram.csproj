@@ -6,6 +6,10 @@
     <Authors>MThomas564</Authors>
     <Version>1.0.5</Version>
     <ProjectUrl>https://github.com/MThomas564/DotNetStandard-Telegram</ProjectUrl>
+    <PackageProjectUrl>https://github.com/MThomas564</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/MThomas564</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/MThomas564</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 <ItemGroup>
   <Content Include="README.md">
