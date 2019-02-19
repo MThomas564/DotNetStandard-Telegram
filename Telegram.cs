@@ -31,7 +31,7 @@ namespace DotNetStandard_Telegram {
         /// Send simple message
         /// </summary>
         /// <param name="strMessage">Message content to be sent</param>
-        /// <returns>bool. True if successful, false if not</returns>
+        /// <returns>string. informs of outcome</returns>
         public async System.Threading.Tasks.Task<string> sendMessageAsync(string strMessage) {
             if (string.IsNullOrEmpty(strMessage)) {
                 throw new ArgumentNullException("No message string provided");
@@ -53,7 +53,7 @@ namespace DotNetStandard_Telegram {
         /// </summary>
         /// <param name="strMessage">Message content to be sent</param>
         /// <param name="strSource">Source of the message</param>
-        /// <returns>bool. True if successful, false if not</returns>
+        /// <returns>string. informs of outcome</returns>
         public async System.Threading.Tasks.Task<string> sendMessageAsync(string strMessage, string strSource) {
             if (String.IsNullOrEmpty(strMessage)) {
                 throw new ArgumentNullException("No message string provided");
@@ -82,7 +82,7 @@ namespace DotNetStandard_Telegram {
         /// <param name="strMessage">Message content to be sent</param>
         /// <param name="strSource">Source of the message</param>
         /// <param name="severity">Severity of message</param>
-        /// <returns>bool. True if successful, false if not</returns>
+        /// <returns>string. informs of outcome</returns>
         public async System.Threading.Tasks.Task<string> sendMessageAsync(string strMessage, string strSource, Severity severity) {
             if (String.IsNullOrEmpty(strMessage)) {
                 throw new ArgumentNullException("No message string provided");
