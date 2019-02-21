@@ -41,11 +41,7 @@ namespace DotNetStandard_Telegram {
             var request = new HttpRequestMessage(HttpMethod.Get, url);
             var result = await this._http.SendAsync(request);
             result.EnsureSuccessStatusCode();
-            if (result.IsSuccessStatusCode) {
-                return "success";
-            } else {
-                return "an error has occured. Http status code: " + result.StatusCode;
-            }
+            return "success";
         }
 
         /// <summary>
@@ -69,11 +65,7 @@ namespace DotNetStandard_Telegram {
             var request = new HttpRequestMessage(HttpMethod.Get, url);
             var result = await this._http.SendAsync(request);
             result.EnsureSuccessStatusCode();
-            if (result.IsSuccessStatusCode) {
-                return "success";
-            } else {
-                return "an error has occured. Http status code: " + result.StatusCode;
-            }
+            return "success";
         }
 
         /// <summary>
@@ -99,11 +91,7 @@ namespace DotNetStandard_Telegram {
             var request = new HttpRequestMessage(HttpMethod.Get, url);
             var result = await this._http.SendAsync(request);
             result.EnsureSuccessStatusCode();
-            if (result.IsSuccessStatusCode) {
-                return "success";
-            } else {
-                return "an error has occured. Http status code: " + result.StatusCode;
-            }
+            return "success";
         }
         public enum Severity {
             Information = 0,
