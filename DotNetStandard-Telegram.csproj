@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>DotNetStandard_Telegram</RootNamespace>
     <Authors>MThomas564</Authors>
-    <Version>1.0.9</Version>
+    <Version>1.0.11</Version>
     <PackageProjectUrl>https://github.com/MThomas564/DotNetStandard-Telegram</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/MThomas564/DotNetStandard-Telegram/blob/master/LICENSE</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/MThomas564/DotNetStandard-Telegram</RepositoryUrl>

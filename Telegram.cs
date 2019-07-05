@@ -26,6 +26,23 @@ namespace DotNetStandard_Telegram {
                 throw new ArgumentNullException("No group ID provided");
             }
         }
+        
+        public Telegram(string strBot, string strGroup){
+            if (!String.IsNullOrEmpty(strBot)) {
+                if (!strBot.Contains("bot")) {
+                    throw new ArgumentNullException("bot api key is not correct.");
+                }
+                this._bot = strBot;
+            } else {
+                throw new ArgumentNullException("No bot api key provided");
+            }
+            if (!String.IsNullOrEmpty(strGroup)) {
+                this._group = strGroup;
+            } else {
+                throw new ArgumentNullException("No group ID provided");
+            }
+            this._http = new HttpClient();
+        }
 
         /// <summary>
         /// Send simple message
